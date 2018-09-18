@@ -1,7 +1,9 @@
-﻿@{
+﻿@model CritiqueFoodReviewer.Models.AboutModel
+
+@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-<p>Use this area to provide additional information.</p>
+<h2>About</h2>
+<h3>@Model.Name.</h3>
+<p>Portland, OR</p>
+<p>@Model.JobTitle at Navex Global</p>

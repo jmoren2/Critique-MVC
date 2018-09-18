@@ -13,6 +13,8 @@ namespace CritiqueFoodReviewer
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            // /Home/Index is controller and action
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
